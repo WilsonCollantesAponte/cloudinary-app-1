@@ -1,20 +1,12 @@
 "use client";
 
-import { v2 as cloudinary } from "cloudinary";
 import { useEffect, useState } from "react";
-
-// cloudinary.config({
-//   cloud_name: "dputhhzyb",
-//   api_key: "645242162575664",
-//   api_secret: "hXQFGVBItNRiiJ7DPD_8B4Avmew",
-// });
 
 function LoadImage() {
   //   const [currensImages, setCurrentImages] = useState<Array<string>>([]);
   const [currentImage, setCurrentImage] = useState<string>("");
 
   useEffect(() => {
-    // console.log(currentImage);
     console.log("image");
   }, [currentImage]);
 
@@ -32,6 +24,9 @@ function LoadImage() {
           const readImage = new FileReader();
           readImage.readAsDataURL(files[0]);
           readImage.onload = (ev) => {
+            //   .upload(String(ev.target?.result))
+            //   .then((result) => console.log(result));
+
             setCurrentImage(String(ev.target?.result));
           };
         }}

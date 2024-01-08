@@ -24,16 +24,16 @@
 
 ////////////////////////////////////////////////////////////
 
-import { v2 as cloudinary } from "cloudinary";
+// import { v2 as cloudinary } from "cloudinary";
 
 const imageURL =
   "https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg";
 
-cloudinary.config({
-  cloud_name: "dputhhzyb",
-  api_key: "645242162575664",
-  api_secret: "hXQFGVBItNRiiJ7DPD_8B4Avmew",
-});
+// cloudinary.config({
+//   cloud_name: "dputhhzyb",
+//   api_key: "645242162575664",
+//   api_secret: "hXQFGVBItNRiiJ7DPD_8B4Avmew",
+// });
 
 // cloudinary.v2.uploader.upload(
 //   "https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
