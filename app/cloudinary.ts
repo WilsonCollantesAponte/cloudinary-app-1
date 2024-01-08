@@ -1,8 +1,8 @@
-// import { v2 as cloudinary } from "cloudinary";
+import { v2 as cloudinary } from "cloudinary";
 
 // import { v2 as cloud_W } from "cloudinary";
 
-var cloudinary = require("cloudinary").v2;
+// var cloudinary = require("cloudinary").v2;
 
 // v2.c
 
