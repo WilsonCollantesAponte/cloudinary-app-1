@@ -2,9 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { v2 as cloudinary } from "cloudinary";
-// import { writeFile } from "fs/promises";
-
-// writeFile
 
 cloudinary.config({
   cloud_name: "dputhhzyb",

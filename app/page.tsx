@@ -19,7 +19,11 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <p> Cloudinary</p>
-      <img className=" w-96" src={imageURL} alt="no cargó :/" />
+      <img
+        className=" w-96"
+        src="https://c0.klipartz.com/pngpicture/754/522/gratis-png-dr-connors-connors-spider-man-art-homo-sapiens-lagarto-hombre-de-escapada-mineral-pantano-mortal-kombat-thumbnail.png"
+        alt="no cargó :/"
+      />
     </div>
   );
 }
